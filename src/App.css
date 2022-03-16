@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,110 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+	font-family: Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:after, :before {
+	box-sizing: border-box
+}
+
+.panel-list {
+  background-color: rgb(93, 130, 209);
+  /* background-color: #1976d2; */
+  color: white;
+  height: 30rem;
+}
+
+.panel-list svg {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.header-list svg {
+  color: lightgray;
+}
+
+.panel-list span {
+  color: white;
+  font-size: 1rem;
+}
+
+.panel-list-icons {
+  gap: 10px;
+  display: flex;
+}
+
+/* .admin-dashboard{
+  display: flex;
+} */
+
+.admin-dashboard {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+.dashboard {
+  width: 82%;
+}
+
+.dashboard-cards-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  gap: 20px;
+}
+
+.dashboard-card {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 230px;
+  border: 1px solid rgba(58, 59, 69, 0.15);
+	border-radius: 5px;
+}
+.monthly {
+  box-shadow: -5px 0px 0px #4e73df;
+}
+.annual {
+  box-shadow: -5px 0px 0px #1cc88a;
+}
+.tasks {
+  box-shadow: -5px 0px 0px #36b9cc;
+}
+.pending-requests {
+  box-shadow: -5px 0px 0px #f6c23e;
+}
+
+.dashboard-card-content {
+  margin: 10px;
+}
+
+.progress-bar {
+	border-radius: 10px;
+	height: 10px !important;
+  margin-top: 70px;
+}
+
+.dashboard-card-logo {
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.tables {
+  width: 80%;
+}
+
+.all-students {
+  padding: 10px;
+}
+
+.add-students {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  gap: 12px;
 }
